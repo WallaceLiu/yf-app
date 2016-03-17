@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical" >
+
+    <!-- search interface -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/back_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- application icon -->
+
+        <ImageView
+            android:id="@+id/btn_gohome"
+            style="@style/title_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/button_details_gohome" />
+        <!-- input method -->
+
+        <EditText
+            android:id="@+id/edt_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/button_title_query"
+            android:focusable="true"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#b2b2b2"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_title_query" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/search_imageview_wait"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/dis_search" />
+    <!-- 加载时等待页面 -->
+
+    <include layout="@layout/loading_layout" />
+    <!-- 没有检索到结果的提示 -->
+
+    <TextView
+        android:id="@+id/txt_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="暂无结果"
+        android:textSize="17sp"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/book_container"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
