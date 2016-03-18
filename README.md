@@ -20,5 +20,5 @@ target=android-14
 
 现在，我基本对APP端已经没什么兴趣了~从技术的角度，有局限性，手机就那么大，CPU就那点能力，能发展到什么程度，不得而知，但再强大，还能有pad，PC，note强大，更不用说后面的集群服务器~而且APP端的开发至少有四种方式，Android 和 iOS 不是唯一的选择~
 
-本人博客 http://i.cnblogs.com/posts?categoryid=585519 有绝大多数 Android 效果，当初学习 Android 时自己做的~另外，推荐一个叫 Trinea 的人，此人 Android 相当厉害~
+本人博客 http://www.cnblogs.com/liuning8023/category/585519.html 有绝大多数 Android 效果，当初学习 Android 时自己做的~另外，推荐一个叫 Trinea 的人，此人 Android 相当厉害~
 
